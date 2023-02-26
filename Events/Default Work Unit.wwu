@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BD528BD-126E-443F-862C-4C910A49267D}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1BD528BD-126E-443F-862C-4C910A49267D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="test1" ID="{87527898-BA71-4E34-A6A5-9B7D70FD0DEC}"/>
+				<Event Name="play_ambience" ID="{24696142-8AC1-4AD6-A006-CE5FD8B33534}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
