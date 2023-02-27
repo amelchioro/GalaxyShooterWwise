@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}" SchemaVersion="110" RootDocumentID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" ParentDocumentID="{1DC093B5-45A3-43CA-8687-085CFD00D160}">
+	<AudioObjects>
+		<WorkUnit Name="SpaceshipUnit" ID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}" OwnerID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Shield" ID="{52BEBDA2-C804-45FF-B6A6-F1B3B6F3B3B3}" ShortID="25506222">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>80</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shield" ID="{10D15D5B-A0D9-4B0C-926B-BCAD5F85DC61}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="141.447"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.280433695652174"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.13508876811594"/>
+								<Property Name="LoopEnd" Type="Real64" Value="2.48384130434782"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.37343025362318"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Designed, Synthetic, Bass Pulse With Bleep, Force Field, Spaceship 01 (120 BPM) SND41751 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="93820953"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shield" ID="{10D15D5B-A0D9-4B0C-926B-BCAD5F85DC61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="Spaceship_Engine" ID="{4ACC2C48-F3BD-4C28-A765-7982BDDB6161}" ShortID="409990100">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATTENUATION_MAIN" ID="{7A978E6C-DA4A-48C4-BC43-C662B5556A97}" WorkUnitID="{487507EB-228C-4BFB-9583-CC809FC513DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Noise Layer" ID="{4621E730-BD99-47F1-B8E3-5D52C637FBE7}" ShortID="283793383">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Noise Layer" ID="{73FB5C26-8490-4549-B498-ED7B76561E60}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="631.579"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.670807453416149"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.894409937888199"/>
+										<Property Name="LoopEnd" Type="Real64" Value="58.8819875776398"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Designed, Distortion, Noise Texture, Weird, Distorted 08 SND36071.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="169766513"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Noise Layer" ID="{73FB5C26-8490-4549-B498-ED7B76561E60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SS_Drone01" ID="{3B0188E9-4DD3-459C-A2C5-35B1DB575ACA}" ShortID="907199083">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scifi, Spaceship, Ambience, Airy Tone, Drone 01 SND28336" ID="{8C635DF2-1E41-4AD0-8B40-58B93F34F7DC}">
+									<Language>SFX</Language>
+									<AudioFile>Scifi, Spaceship, Ambience, Airy Tone, Drone 01 SND28336.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289128743"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scifi, Spaceship, Ambience, Airy Tone, Drone 01 SND28336" ID="{8C635DF2-1E41-4AD0-8B40-58B93F34F7DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SS_Drone02" ID="{D5EBC278-8D2E-4EED-9DB4-7F1A216C0883}" ShortID="506347610">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scifi, Spaceship, Ambience, Airy Tone, Drone 02 SND28342" ID="{D648D957-8214-4B43-A00B-C60E3A85F7A1}">
+									<Language>SFX</Language>
+									<AudioFile>Scifi, Spaceship, Ambience, Airy Tone, Drone 02 SND28342.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="115153478"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scifi, Spaceship, Ambience, Airy Tone, Drone 02 SND28342" ID="{D648D957-8214-4B43-A00B-C60E3A85F7A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FireLayer" ID="{C2D71AFE-94ED-46CD-A06C-02E734A2030A}" ShortID="994085537">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-23</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire, Turbulent, Textures, Large Fire, Inferno, Winds, Continuously On Fire SND42950 1" ID="{BE5C6154-CDA1-4B3B-BC95-FBED53EC62C2}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="805.863"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.84769233954451"/>
+										<Property Name="LoopEnd" Type="Real64" Value="16.7650907867495"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fire, Turbulent, Textures, Large Fire, Inferno, Winds, Continuously On Fire SND42950 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582726805"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire, Turbulent, Textures, Large Fire, Inferno, Winds, Continuously On Fire SND42950 1" ID="{BE5C6154-CDA1-4B3B-BC95-FBED53EC62C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="FireBoosters" ID="{51254677-E84B-482C-BCDE-B2BA4A3196A8}" ShortID="1011968472">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATTENUATION_MAIN" ID="{7A978E6C-DA4A-48C4-BC43-C662B5556A97}" WorkUnitID="{487507EB-228C-4BFB-9583-CC809FC513DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fire, Burst, Cinematic, Impact, Phasing Fire Flames SND42851 1" ID="{426A6D99-5E04-4D11-9D45-DFFE5D2757FA}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.3440222826087"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Fire, Burst, Cinematic, Impact, Phasing Fire Flames SND42851 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="267908712"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fire, Burst, Cinematic, Impact, Phasing Fire Flames SND42851 1" ID="{426A6D99-5E04-4D11-9D45-DFFE5D2757FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

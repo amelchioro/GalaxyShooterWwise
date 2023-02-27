@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0ED65609-B9DB-4551-ABEC-8B2B961D1520}" SchemaVersion="110" RootDocumentID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" ParentDocumentID="{1DC093B5-45A3-43CA-8687-085CFD00D160}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{0ED65609-B9DB-4551-ABEC-8B2B961D1520}" OwnerID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Ambience" ID="{BB0FFE47-399D-4B18-B512-B9A0ADCD5C06}" ShortID="52639139">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E110C59A-9D89-4BA6-A113-6625ABA7D6AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A0BD1AA5-62D6-4F9F-ABE4-A2959DFA02C5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience" ID="{16772399-D6BE-4850-BBC4-54644E69BEE9}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1278.947"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.384189673913044"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.75629565217391"/>
+								<Property Name="LoopEnd" Type="Real64" Value="42.041327173913"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.274421195652174"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Ambience, Scifi, Space Atmosphere, Dark, Creepy, Resonant SND50528.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="531827352"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience" ID="{16772399-D6BE-4850-BBC4-54644E69BEE9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

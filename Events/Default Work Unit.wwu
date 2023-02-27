@@ -3,8 +3,46 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{1BD528BD-126E-443F-862C-4C910A49267D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="test1" ID="{87527898-BA71-4E34-A6A5-9B7D70FD0DEC}"/>
-				<Event Name="play_ambience" ID="{24696142-8AC1-4AD6-A006-CE5FD8B33534}"/>
+				<Event Name="play_ambience" ID="{24696142-8AC1-4AD6-A006-CE5FD8B33534}">
+					<ChildrenList>
+						<Action Name="" ID="{3F95E485-F7BC-4ECF-AFEF-E3BDEAA7D6F7}" ShortID="1024932671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{BB0FFE47-399D-4B18-B512-B9A0ADCD5C06}" WorkUnitID="{0ED65609-B9DB-4551-ABEC-8B2B961D1520}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="spaceship" ID="{FE158A57-F065-4C6F-B944-BAB55D525CC0}">
+					<ChildrenList>
+						<Action Name="" ID="{35ADA2D9-8454-46EA-B152-78B31DAA6746}" ShortID="788709425">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireBoosters" ID="{51254677-E84B-482C-BCDE-B2BA4A3196A8}" WorkUnitID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CE8289B-DAA4-440B-8113-CDD4E3C70475}" ShortID="766183616">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spaceship_Engine" ID="{4ACC2C48-F3BD-4C28-A765-7982BDDB6161}" WorkUnitID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="shield" ID="{35DF90D6-32AC-4BF6-A914-78136FEF5C85}">
+					<ChildrenList>
+						<Action Name="" ID="{3C3A28C4-3E5D-496F-9B3A-4EB098F678FF}" ShortID="564408589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shield" ID="{52BEBDA2-C804-45FF-B6A6-F1B3B6F3B3B3}" WorkUnitID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

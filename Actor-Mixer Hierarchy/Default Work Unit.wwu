@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1DC093B5-45A3-43CA-8687-085CFD00D160}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambience" ID="{0ED65609-B9DB-4551-ABEC-8B2B961D1520}" PersistMode="Reference"/>
+				<WorkUnit Name="EnemiesUnit" ID="{4B9917BB-DE86-459C-A9B7-E6BA6AF2E2EC}" PersistMode="Reference"/>
+				<WorkUnit Name="ItemsUnit" ID="{C6134AF7-77C3-4DF2-9EA5-224919BA6A60}" PersistMode="Reference"/>
+				<WorkUnit Name="SpaceshipUnit" ID="{7380717B-B5BF-415D-AB6C-BB67FA68C94C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
